@@ -1,0 +1,16 @@
+http://bitcoinmacroeconomics.com/2016/11/25/incochain-tracking-tracing-blockchain/
+
+Be it documents or an entire 40 foot container, or LCL (less than container load), a pallet of air freight, or a full truckload or less than truckload quantity, or all of the above, here’s a glimpse of how INCOCHAIN is taking smart contracts completely paperless. Note the tracking and tracing capabilities:
+
+Example A: Starting with a Bill of Lading document
+http://freebilloflading.com/images/vics_bol.pdf
+
+Part 2: The Upload to the blockchain via (Chainy.info)
+https://chainy.info/
+
+Example B:
+Transaction 0x9a96cbd7835dd089b5d43af653797891aa7494ad3c227a9ac83cdf66c507393c (bill of lading)
+INCOCHAIN is proposing this by Account, Sub Account, or by Shipment Number. This is how it will be tracked and traced, by account, shipment, or even by document. Given Example B, this is the “bill of lading” document.
+
+Example C:
+https://txn.me/4jegtH (shortened URL for generic bill of lading) permanently on the blockchain, a necessary component for tracking and tracing of shipments and documents.
