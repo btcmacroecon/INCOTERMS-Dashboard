@@ -1,0 +1,72 @@
+Tracking  and Tracing
+Purpose: Hackathon work in progress
+Date: December 4th, 2016
+
+Items to track (possibilities):			Origin of capability
+
+1. Account 					Master Account in Ethereum Wallet
+2. Sub Account				Secondary, Third, etc accounts set up in Ethereum Wallet
+3. Document (Airway Bill, BOL, etc)	Any document stored on blockchain
+4. Shipment (air, ocean, rail, trucking)	From origin of exporter (or specified origin
+						                                       example, airport, port, warehouse)
+5. Barcode (barscan, note: Intermec)		Smart contract initiated via barscan at pick up or if
+						specified by contract, could be at end of production line at	
+						factory.
+6. Live Surveillance Video (proof)		At certification (consider gold, assayer by agreed assayer)
+						or at Bay Door until pick up by trucking company.
+
+Scenarios:
+
+1. Account – The definition of Account can be several possibilities, example could be an individual, a company, a freight forwarder, an airline, an ocean liner, etc. It could also serve as a master account for a multinational corporation. The Master Account is the original account established and can be tracked in any block explorer in Ethereum, be it Etherscan.io or Chainy.info, etc. All transaction and history can be tracked and traced, thus item to track. This is simple. One merely inputs account number and it's trackable. All history is traceable. 
+
+2. Sub Account – The definition of Sub Account can be several possibilities, example could be accounts of a freight forwarder. It could be accounts of an Ocean Liner or Airline. These sub accounts could be individuals or freight forwarders, as an Ocean Liner or airline could have freight forwarders or individual businesses (or individuals ...i e household moving). The sub accounts could be customers of FedX or British Airlines or customers of trucking company. Sub accounts could actually be multinational corporations locations (under umbrella) of Master Account. One merely inputs the sub account number and it's trackable. All history is traceable. This is simple.
+
+3. Document – There are many documents that INCOCHAIN has identified. We have established a list of components: https://docs.google.com/spreadsheets/d/1kuow03PJtuyW5qSnyF9zlTRwXXpBMKw7bhxKbYtozNo/edit?usp=sharing Incochain Explanation of Components (work in progress), videos, reference material. Feel free to add.
+	Scenario: A. Airway Bill (consider FedX tracking number), which is not a title document.
+	Scenario  B. Bill of Lading (consider Ocean Liner or Trucking company) for all concerned purposes
+                                 is a title document.
+	Scenario C. Signed Power of Attorney document from customs broker.
+Goal: Track documents on blockchain via block explorer, via Chainy.info
+Limitations: 200 bytes
+Is it possible to “zip” or automate zip? Example of Bill of Lading (previously done is 503 kb and worked) but when Brent tried to add a PDF file or link to website, it exceeded 200 bytes. 
+Variable: Limits of blockchain on Ethereum.
+
+4. Shipment (air, ocean, rail, trucking) 			For purpose of hackathon would it be possible to
+							track via an airline (consider LHR to NYC) to prove
+							from origin to arrival at airline. Is this possible for 
+							hackathon? Tracked from pickup (Ex Works factory)
+							to wherever it is tracked to (be it out for delivery or 
+							example of hackathon to NYC airport as arrived)
+							(tracking and tracing can be from door to door, 
+							port to port, airport to airport) but for purpose of 
+							hackathon, airport to airport would suffice.
+
+5. Barcode 						This is complex and Brent does not know how to
+							integrate, though I spoke to an engineer at Intermec
+							and they can integrate barcode into other systems,
+							and Brent believes this could be replicated with 
+							blockchain and translated via block explorer.
+
+6. Live Stream Surveillance				Example: Any live surveillance footage (for hackathon
+							it would be better than a youtube video!) but Brent 
+							does not know how to integrate. 
+							Example of tracking is .999 gold bars, let's say a 
+							pallet and the bill of sale (agreed via contract) an 
+							accredited gold assayer that assays gold as .999 at 
+							specified location (ex works vault, warehouse) and
+							this live surveillance “documents” proof of gold as
+							being “certified” as .999 and is captured and is 
+							trackable on blockchain. If any problems later or 
+							at delivery, if bait and switch happened and gold is
+							found to be gold plated only, this is documented on
+							blockchain. Other supporting documents could back 
+							up any claims to avoid dispute. 
+							For hackathon, is there any way to utilize a “live” 
+							surveillance stream? It could be of the London 
+							Bridge or any bay door at a factory? 
+							Purpose is to prove live video surveillance which
+							could also coincide with bar scan or “documents”
+							at shipper, or eventually initiated (smart contract)
+							when trucking company comes and picks it up, 
+							taking title and responsibility for shipment (for 
+							title purpose or insured value or declared value).
