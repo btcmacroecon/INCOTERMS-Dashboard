@@ -1,0 +1,166 @@
+Project: INCOCHAIN
+Subject: EtherCamp Hackathon Deliverable
+Date: December 11, 2016 
+Note: Weekly Team Meeting
+
+The purpose of the meeting was to arrive at a finish line for INCOCHAIN as it relates to the EtherCamp Hackathon. The deliverable for the hackathon is to demonstrate the capabilities of INCOCHAIN as it relates to the tracking and tracing capabilities via smart contracts.
+
+How the team arrives at the deliverable is contingent on objectives set forth in this document and the tasks assigned to team members in order to meet the INOCHAIN objective of tracking and tracing. 
+
+Our team members are required to demonstrate the capabilities of this deliverable however it is necessary to start at the basics in order to clearly arrive at the finish line. 
+
+Ethereum and the wallet is the starting point for this week's meeting. It is necessary as team members to begin at the starting line and yet it must be assumed that followers of this project and the users of our methodologies of tracking and tracing are clearly understood. The basic understanding of how Ethereum and the smart contracts work must be demonstrated for all concerned purposes.
+
+Let us start at the Ethereum Wallet which in itself is a smart contract. INCOCHAIN must demonstrate how Ethereum and smart contracts can be utilized and therefore we must start with the wallet itself. While the Ethereum MIST wallet has many complexities our team has discussed the necessity to look further at GETH and also the Parity client in order to demonstrate, not just to our team as a starting point but for others, including the users.
+
+1. Let us begin at GETH:
+https://github.com/ethereum/go-ethereum/wiki/Geth
+Team (ICN) INCOCHAIN has members that use both Linux terminal and Microsoft Windows 10. We found it necessary to start with the basics, and while the Ethereum Frontier Release was helpful at the start of basics for those new to Ethereum, this will also prove to be instrumental in ensuring Team INCOCHAIN is together at the starting point, but the basics can be carried over to judges in the hackathon to understand the processes and to new users to blockchain technology, and that can be users   that will benefit, including those involved with world trade, import and export, shipping and receiving, buyers and sellers, or those that have the requirement to track and trace shipments and documents via the Ethereum blockchain.
+
+The purpose of the tracking and tracing capabilities as it relates to the EtherCamp Hackathon is to showcase how blockchain and block explorer technology will create solutions in real world applications.
+
+Not everybody has heard of GETH. For some it is as easy as going to the Linux terminal and inputting the word GETH which starts the program, but not everybody is a developer. This is why it is necessary to install and run GETH in order to utilize the functionalities. Please review the Github document link above for GETH.
+
+2. Let us explore Parity:
+https://github.com/ethcore/parity/releases
+Once Parity has been installed (depending on Operating System and release) it is necessary to simultaneously go to the IP address for Parity to get the interface to work. This will be the wallet and transactions, and complete capabilities of Parity.
+Setting Up Parity / Ethereum Node in Docker and Connecting:
+https://medium.com/decentralized-capital/setting-up-a-parity-ethereum-node-in-docker-and-connect-safely-f881faa17686#.vg6di6yyk
+
+Go to IP http://127.0.0.1:8180
+(Note: If the wallet has been established previously with GETH, and that includes all transaction history, MASTER ACCOUNT, and SUB ACCOUNTS – meaning additional wallet addresses, by clicking the IP address the complete GETH wallet previously established should carry over to the Parity interface or wallet client)
+
+While Ethereum MIST wallet has many complexities and capabilities, synchronizing and functions can be challenging for many users. INCOCHAIN is challenged with a deliverable in 2 weeks. Our team found it necessary to arrive at functionality given the finish line and are utilizing both GETH and utilizing the Parity client as Parity offers many capabilities and yet is a lighter running wallet than Etheruem MIST. For demonstrating tracking and tracing, INCOCHAIN is planning on using the functions of Parity in order to track and trace, as we will demonstrate and the functions of a built in ability to track transactions (which INCOCHAIN will demonstrate tracking and tracing capabilities by Master Account, Sub Account, by shipment, and by documentation as we will explain below) via Etherscan.io and this capability has it's merits and offers a value added services that can be translated into real world applications like that of this deliverable.
+
+3. Once INCOCHAIN utilizes both GETH and Parity it will be easier to demonstrate how to begin the tracking and tracing capabilities. While we realize how this technology works, we will also rely as a team on the Ethereum Community should we require to do so. For example: https://gitter.im/ethcore/parity is the Gitter go to space to ask questions should the need arrive and we realize the application of tracking and tracing may not have been explored via the Parity client, and yet we have a go to place to ask questions given that our team is from around the world, both in the United States and in Europe. Likewise Gitter may serve as a place to ask questions related to GETH as well and this can be accomplished amongst a number of channels dedicated to Ethereum development going forward.
+
+4. Once INCOCHAIN has arrived at the initial smart contract, the Ethereum wallet itself, via GETH or Parity, we need to establish some ground rules for the development of the deliverable – tracking and tracing:
+MASTER ACCOUNT: This MASTER ACCOUNT is the starting point and like any “first” wallet address established with any new wallet, this MASTER ACCOUNT is important for demonstrating the deliverable. This is important because this will represent an umbrella if you will or relationship in order to track and trace, be it by air shipment or ocean container, or any shipment from origin to destination as I will explain, but it also will establish the relationship of the buyer and seller (or shipper and consignee), and yet it can represent the relationship of the umbrella as it relates to the locations of a multinational corporation or the airline and their customers (freight forwarders or companies for example) or ocean liner and their customers (freight forwarders or companies for example) on down to the buyers and sellers, while the transactions can be tracked via the block explorer. 
+The MASTER ACCOUNT is the MASTER ACCOUNT.
+
+SUB ACCOUNT: Once the MASTER ACCOUNT was established and utilized as required, depending on the relationship or umbrella of accounts required under the MASTER ACCOUNT, the SUB ACCOUNTS enter into the wallet. For those that have established second, third, fourth, or several account addresses, they understand how to do that for transactions. The INCOCHAIN purpose is to establish SUB ACCOUNTS in relation to the MASTER ACCOUNT.
+
+For examples:
+
+An airline (MASTER ACCOUNT) may have cargo customers or freight forwarders as customers, or even customs brokers (SUB ACCOUNTS).
+
+An ocean liner (MASTER ACCOUNT) may have cargo customers or freight forwarders as customers, or even customs brokers (SUB ACCOUNTS).
+
+A multinational corporation (MASTER ACCOUNT) may have hundreds of locations worldwide for their business operations (SUB ACCOUNTS)
+
+A freight forwarder (MASTER ACCOUNT) may have cargo customers, importers and exporters and/or domestic customers (SUB ACCOUNTS)
+
+A customs broker (MASTER ACCOUNT) may have importers (SUB ACCOUNTS)
+
+An E Commerce company (MASTER ACCOUNT) may have many buyers (SUB ACCOUNTS)
+
+All have their own unique relationship to one another, or they have a reason for the SUB ACCOUNTS under the umbrella of the MASTER ACCOUNT.
+
+5. Tracking and Tracing via the blockchain, block explorer and the relationship to the Ethereum wallet:
+The objective of the hackathon for Team INCOCHAIN is to deliver the tracking and tracking capability and this is why it was necessary to explain this (via 1. - 4.) While it has been explained that Parity has a value added capability of tracking transactions (via Etherscan.io), as it is built into the client and is as simple as clicking on the user interface, INCOCHAIN is going to deliver this by shipment, by document (or documentation), by MASTER ACCOUNT, and by SUB ACCOUNT, yet we plan to exemplify how this will be used for other propositions and with the use of other technologies, far beyond the typical application of Ethereum as it relates to “transactions”, in this case by tracking and tracing. INCOCHAIN plans to demonstrate how this technology can be utilized in order to track and trace, but to never again lose a shipment or document, with verifiable and unalterable proof, but with certainty, including RFID technology. There never again will be a lost shipment or long calls with a customer service line trying to find the package. And this is where the technology is going to go with INCOCHAIN, offering solutions across the globe, but freeing up human resources and customer service, and this will be done via the blockchain. 
+
+6. Demonstration of INCOCHAIN Deliverable:
+
+Items to track (possibilities):			Origin of capability
+
+A)  Account 					Master Account in Ethereum Wallet
+B) Sub Account				Secondary, Third, etc accounts set up in Ethereum Wallet
+C) Document (Airway Bill, BOL, etc)	Any document stored on blockchain
+D) Shipment (air, ocean, rail, trucking)	From origin of exporter (or specified origin
+						                                       example, airport, port, warehouse)
+E) Barcode (barscan, note: Intermec)		Smart contract initiated via barscan at pick up or if
+						specified by contract, could be at end of production line at	
+						factory.
+F) Live Surveillance Video (proof)		At certification (consider gold, assayer by agreed assayer)
+						or at Bay Door until pick up by trucking company.
+G) RFID Capability 				RFID in the box or container, RFID on the pallet, or RFID
+						barscan label (if capable) printed off of printer
+
+Scenarios:
+
+A) Account – The definition of Account can be several possibilities, example could be an individual, a company, a freight forwarder, an airline, an ocean liner, etc. It could also serve as a master account for a multinational corporation. The Master Account is the original account established and can be tracked in any block explorer in Ethereum, be it Etherscan.io or Chainy.info, etc. All transaction and history can be tracked and traced, thus item to track. This is simple. One merely inputs account number and it's trackable. All history is traceable. 
+
+B) Sub Account – The definition of Sub Account can be several possibilities, example could be accounts of a freight forwarder. It could be accounts of an Ocean Liner or Airline. These sub accounts could be individuals or freight forwarders, as an Ocean Liner or airline could have freight forwarders or individual businesses (or individuals ...i e household moving). The sub accounts could be customers of FedX or British Airlines or customers of trucking company. Sub accounts could actually be multinational corporations locations (under umbrella) of Master Account. One merely inputs the sub account number and it's trackable. All history is traceable. This is simple.
+
+C) Document – There are many documents that INCOCHAIN has identified. We have established a list of components: https://docs.google.com/spreadsheets/d/1kuow03PJtuyW5qSnyF9zlTRwXXpBMKw7bhxKbYtozNo/edit?usp=sharing Incochain Explanation of Components (work in progress), videos, reference material. Feel free to add.
+	Scenario: A. Airway Bill (consider FedX tracking number), which is not a title document.
+	Scenario  B. Bill of Lading (consider Ocean Liner or Trucking company) for all concerned purposes
+                                 is a title document.
+	Scenario C. Signed Power of Attorney document from customs broker.
+Goal: Track documents on blockchain via block explorer, via Chainy.info
+Limitations: 200 bytes
+Is it possible to “zip” or automate zip? Example of Bill of Lading (previously done is 503 kb and worked) but when Brent tried to add a PDF file or link to website, it exceeded 200 bytes. 
+Variable: Limits of blockchain on Ethereum.
+
+D)  Shipment (air, ocean, rail, trucking) 		For purpose of hackathon would it be possible to
+							track via an airline (consider LHR to NYC) to prove
+							from origin to arrival at airline. Is this possible for 
+							hackathon? Tracked from pickup (Ex Works factory)
+							to wherever it is tracked to (be it out for delivery or 
+							example of hackathon to NYC airport as arrived)
+							(tracking and tracing can be from door to door, 
+							port to port, airport to airport) but for purpose of 
+							hackathon, airport to airport would suffice.
+
+E) Barcode 						This is complex and Brent does not know how to
+							integrate, though I spoke to an engineer at Intermec
+							and they can integrate barcode into other systems,
+							and Brent believes this could be replicated with 
+							blockchain and translated via block explorer.
+
+F) Live Stream Surveillance				Example: Any live surveillance footage (for hackathon
+							it would be better than a youtube video!) but Brent 
+							does not know how to integrate. 
+							Example of tracking is .999 gold bars, let's say a 
+							pallet and the bill of sale (agreed via contract) an 
+							accredited gold assayer that assays gold as .999 at 
+							specified location (ex works vault, warehouse) and
+							this live surveillance “documents” proof of gold as
+							being “certified” as .999 and is captured and is 
+							trackable on blockchain. If any problems later or 
+							at delivery, if bait and switch happened and gold is
+							found to be gold plated only, this is documented on
+							blockchain. Other supporting documents could back 
+							up any claims to avoid dispute. 
+							For hackathon, is there any way to utilize a “live” 
+							surveillance stream? It could be of the London 
+							Bridge or any bay door at a factory? 
+							Purpose is to prove live video surveillance which
+							could also coincide with bar scan or “documents”
+							at shipper, or eventually initiated (smart contract)
+							when trucking company comes and picks it up, 
+							taking title and responsibility for shipment (for 
+							title purpose or insured value or declared value).
+
+G) RFID Capability 					Radio Frequency ID will allow for complete tracking
+							and tracing, complete with GPS tracking capabilities.
+							Shipments will be difficult to lose with this integrated
+							technology. It can also be tied into systems for 
+							inventory control or for loss prevention (theft). RFID
+							will originate in the box itself if critical or required, 
+							or if printer is capable for barscan code and RFID, 
+							this technology can be utilized on each piece count 
+							as it comes off the production line, on each box, or 
+							on the pallet, etc.
+
+7. Team INCOCHAIN has established for the sake of the hackathon a Github account:
+
+https://github.com/btcmacroecon/INCOTERMS-Dashboard
+
+Note: It is necessary to “Fork”, for contributing to project for TEAM INCOCHAIN (ICN) which can be found in the upper right hand corner of the page. From there you can see if you have been added to Github and to verify contributors. See contributor section as well. It will be necessary to establish an account at Github. This was the Github link that is included in the EtherCamp hackathon. 
+
+8. Michael has contributed a significant roadmap for the hackathon deliverable:
+https://slack-files.com/T0XJY6CHY-F3CDCEBBN-ddb6ffe9b2
+
+9. EtherCamp DST Tokens for hackathon (in order for public to contribute to project and exchange via
+HackerGold tokens:
+Note: https://blog.ethereum.org/2015/12/03/how-to-build-your-own-cryptocurrency/
+10: How to use the EtherCamp Studio (video)
+      Credit: Jim Whitescarver and DivvyDAO.org
+      https://www.youtube.com/watch?v=V2NlWskxUi8
+      
+     Above Youtube video is for: Divvy Either.camp tutorial 1 
+
+11. Other References (Solidity Tutorials / Information)
+      
+      http://bitcoinmacroeconomics.com/?s=solidity+
