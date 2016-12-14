@@ -1,0 +1,46 @@
+INCOCHAIN 
+Subject: Hackathon Deliverable
+Date: December 13, 2016
+
+Upon further review as it relates to the weekly meeting, it has been discussed to revise our deliverable document (from Sunday) and what was presented will act as the USER GUIDE going forward, whereas we need to arrive at a clearer deliverable document.
+
+As discussed at Sunday's meeting we need to deliver the following:
+
+1. Establish a Wallet (GETH and / or Parity client)
+2. Within the wallet, our team must arrive at a multisig capability as it relates to the smart contract nature of the overall project.
+3. We need to arrive at the deliverable of tracking and tracing:
+    Be it documents or an entire 40 foot container, or LCL (less than container load), a pallet of air freight, or a full truckload or less than truckload quantity, or all of the above, here’s a glimpse of how INCOCHAIN is taking smart contracts completely paperless. Note the tracking and tracing capabilities:
+Example A: Starting with a Bill of Lading document
+http://freebilloflading.com/images/vics_bol.pdf
+The Upload to the blockchain via (Chainy.info)
+https://chainy.info/
+Example B:
+Transaction 0x9a96cbd7835dd089b5d43af653797891aa7494ad3c227a9ac83cdf66c507393c (bill of lading)
+INCOCHAIN is proposing this by Account, Sub Account, or by Shipment Number. This is how it will be tracked and traced, by account, shipment, or even by document. Given Example B, this is the “bill of lading” document.
+Example C:
+https://txn.me/4jegtH (shortened URL for generic bill of lading) permanently on the blockchain, a necessary component for tracking and tracing of shipments and documents.
+4. Bill of Lading Document and Tracking Number: We need to exemplify and deliver both a document that can be tracked on the blockchain (as 3. shows) but we also need to exemplify this document as a trackable number to be tracked by number (or Tx). By utilizing the Bill of Lading document this can serve as the example of how any Bill of Lading (example ocean or trucking) could work with blockchain and it also proves how an Airway Bill would work for (air shipment or package) could be tracked and traced, but for the purpose of the hackathon, it doesn't really matter if it is air, ocean, rail or trucking, the point here is to deliver a document and a “number” and the Tx hash can serve as that tracking number on the blockchain. 
+5. Once INCOCHAIN has arrived at the initial smart contract, the Ethereum wallet itself, via GETH and / or Parity, we need to establish some ground rules for the development of the deliverable – tracking and tracing:
+MASTER ACCOUNT: This MASTER ACCOUNT is the starting point and like any “first” wallet address established with any new wallet, this MASTER ACCOUNT is important for demonstrating the deliverable. This is important because this will represent an umbrella if you will or relationship in order to track and trace, be it by air shipment or ocean container, or any shipment from origin to destination as I will explain, but it also will establish the relationship of the buyer and seller (or shipper and consignee), and yet it can represent the relationship of the umbrella as it relates to the locations of a multinational corporation or the airline and their customers (freight forwarders or companies for example) or ocean liner and their customers (freight forwarders or companies for example) on down to the buyers and sellers, while the transactions can be tracked via the block explorer. 
+The MASTER ACCOUNT is the MASTER ACCOUNT.
+
+SUB ACCOUNT: Once the MASTER ACCOUNT was established and utilized as required, depending on the relationship or umbrella of accounts required under the MASTER ACCOUNT, the SUB ACCOUNTS enter into the wallet. For those that have established second, third, fourth, or several account addresses, they understand how to do that for transactions. The INCOCHAIN purpose is to establish SUB ACCOUNTS in relation to the MASTER ACCOUNT.
+
+For examples:
+
+An airline (MASTER ACCOUNT) may have cargo customers or freight forwarders as customers, or even customs brokers (SUB ACCOUNTS).
+
+An ocean liner (MASTER ACCOUNT) may have cargo customers or freight forwarders as customers, or even customs brokers (SUB ACCOUNTS).
+
+A multinational corporation (MASTER ACCOUNT) may have hundreds of locations worldwide for their business operations (SUB ACCOUNTS)
+
+A freight forwarder (MASTER ACCOUNT) may have cargo customers, importers and exporters and/or domestic customers (SUB ACCOUNTS)
+
+A customs broker (MASTER ACCOUNT) may have importers (SUB ACCOUNTS)
+
+An E Commerce company (MASTER ACCOUNT) may have many buyers (SUB ACCOUNTS)
+
+All have their own unique relationship to one another, or they have a reason for the SUB ACCOUNTS under the umbrella of the MASTER ACCOUNT.
+
+Other:
+Team, in all simplicity this is the deliverable. As a team at the next team meeting we may arrive at visual document to further explain tracking and tracing by document or shipment as it is related to RFID, barscan, surveillance, or fully integrated with GPS or third party logistics systems or supply chain, or inventory control management.
