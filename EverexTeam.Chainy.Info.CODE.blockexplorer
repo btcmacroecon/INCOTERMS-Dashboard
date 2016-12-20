@@ -1,0 +1,11 @@
+<form id="chainy_form"><input type="text" name="code"><input type="submit" value="find"></form>
+<script>$('#chainy_form').submit(function(e){
+    e.preventDefault();
+    var val = $('#chainy_form input[name="code"]').val();
+    val = val.replace(/^https\:\/\/chainy\.link\//, '').replace(/^https\:\/\/txn\.me\//, '');
+   if(/^[a-zA-Z0-9]{6,7}$/.test(val)){
+      document.location.href="https://chainy.link/" + val;
+   }
+});
+</script>
+
