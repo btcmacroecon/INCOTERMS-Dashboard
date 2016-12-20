@@ -1,0 +1,38 @@
+Hello Marcos!
+
+Thanks for reaching out. 
+Good idea and project. We are also looking at Trade Finance from the P2P financing point of view using CryptoCash that we develop. 
+But we can discuss this later. 
+Back to your project. 
+
+At this time the search is possible only by the record code ChainyShortCode. 
+Why don’t you use it as a tracking code? It may be enough for the hackathon.
+The form for such search you can try and put on your website. The approximate code look below ( note that we didn't test it) . 
+
+As for the custom search fields, in general it’s possible but we don’t plan to do this in the near time. 
+If we receive enough requests and donations, then we will think about doing it, along with creating widgets for easy placement of the search forms on any external websites. 
+
+Sample code for search form, used at chainy website.
+
+<form id="chainy_form"><input type="text" name="code"><input type="submit" value="find"></form>
+<script>$('#chainy_form').submit(function(e){
+    e.preventDefault();
+    var val = $('#chainy_form input[name="code"]').val();
+    val = val.replace(/^https\:\/\/chainy\.link\//, '').replace(/^https\:\/\/txn\.me\//, '');
+   if(/^[a-zA-Z0-9]{6,7}$/.test(val)){
+      document.location.href="https://chainy.link/" + val;
+   }
+});
+</script>
+
+
+Good luck, 
+
+--
+Alex Kakunov, Everex Team
+https://everex.one
+
+
+--
+Alex Kakunov, Everex Team
+https://everex.one
